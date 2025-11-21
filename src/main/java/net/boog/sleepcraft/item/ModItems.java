@@ -17,7 +17,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        SleepCraft.LOGGER.info("Registering Mod Itmes for " + SleepCraft.MOD_ID);
+        SleepCraft.LOGGER.info("Registering Mod Items for " + SleepCraft.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(CHAMBERSTICK);
