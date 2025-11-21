@@ -1,5 +1,6 @@
 package net.boog.sleepcraft;
 
+import net.boog.sleepcraft.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class SleepCraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+        ModItems.registerModItems();
 	}
 }
