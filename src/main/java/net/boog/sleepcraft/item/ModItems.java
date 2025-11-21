@@ -9,7 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item CHAMBER_STICK = registerItem( name: "chamber_stick", new Item(new Item.Settings()));
+    public static final Item CHAMBER_STICK = registerItem( "chamber_stick", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
