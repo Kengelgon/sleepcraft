@@ -9,7 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item CHAMBER_STICK = registerItem( "chamber_stick", new Item(new Item.Settings()));
+    public static final Item CHAMBERSTICK = registerItem( "chamberstick", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -20,7 +20,7 @@ public class ModItems {
         SleepCraft.LOGGER.info("Registering Mod Itmes for " + SleepCraft.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(CHAMBER_STICK);
+            entries.add(CHAMBERSTICK);
         });
     }
 }
