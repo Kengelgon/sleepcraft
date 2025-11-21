@@ -3,15 +3,15 @@
 	"id": "sleepcraft",
 	"version": "${version}",
 	"name": "SleepCraft",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "SleepCraft is designed to add cozy, or not so cozy sleep to Minecraft!",
 	"authors": [
-		"Me!"
+		"Masterboog"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Kengelgon/sleepcraft/blob/main/README.md"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/sleepcraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"net.boog.sleepcraft.SleepCraftDataGenerator"
-		]
+		],
+        "client": [
+            "net.boog.sleepcraft.SleepCraftClient"
+        ]
 	},
 	"mixins": [
 		"sleepcraft.mixins.json"
